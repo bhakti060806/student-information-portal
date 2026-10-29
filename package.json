@@ -1,0 +1,17 @@
+{
+  "name": "student-information-portal",
+  "version": "1.0.0",
+  "description": "Student Information Portal using ExpressJS with server-side validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": { "nodemon": "^3.1.9" }
+}
