@@ -1,7 +1,0 @@
-<%- include("partials/header", { title, portalName }) %>
-<a class="text-link back-link" href="/students">← Back to students</a>
-<section class="detail-card">
-  <div class="detail-top"><div class="avatar avatar-large"><%= student.name.charAt(0).toUpperCase() %></div><div><p class="eyebrow">STUDENT PROFILE</p><h1><%= student.name %></h1><p class="muted"><%= student.department %></p></div></div>
-  <dl class="detail-list"><div><dt>PRN / Roll number</dt><dd><%= student.prn %></dd></div><div><dt>Email address</dt><dd><%= student.email %></dd></div><div><dt>Academic year</dt><dd><span class="pill"><%= student.year %></span></dd></div><div><dt>Record ID</dt><dd>#<%= student.id %></dd></div></dl>
-</section>
-<%- include("partials/footer") %>
